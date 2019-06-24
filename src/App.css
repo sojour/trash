@@ -19,15 +19,75 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+  height: 500px;
+  width: 500px;
+  overflow: hidden;
 }
 
-@keyframes App-logo-spin {
+.imageC {
+  height: 270px;
+  position: relative;
+  top: 150px;
+  /* transform: translateY(200px); */
+}
+
+/* .imageCScRollIn {
+  transform: translateY(0);
+  transition: all 2s ease;
+} */
+
+.image {
+  height: 100%;
+}
+
+.text {
+  color: #282c34;
+  margin-top: 88px;
+}
+
+.upload-btn-wrapper {
+  display: inline-block;
+  margin-bottom: -57px;
+}
+
+.btn {
+  border: 2px solid #282c34;
+  color: white;
+  background-color: #282c34;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.upload-btn-wrapper input[type="file"] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.input {
+  display: none;
+}
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
