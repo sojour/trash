@@ -1,7 +1,7 @@
 
-###Welcome to Hi Oscar!
+## Welcome to Hi Oscar!
 
-##Oscar will tell you if the image that you uploaded should be a recycle or trash!
+### Oscar will tell you if the image that you uploaded should be a recycle or trash!
 
  `npm start`
 
