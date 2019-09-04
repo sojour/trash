@@ -1,9 +1,9 @@
 
-Welcome to Hi Oscar!
+###Welcome to Hi Oscar!
 
-Oscar will tell you if the image that you uploaded should be a recycle or trash!
+##Oscar will tell you if the image that you uploaded should be a recycle or trash!
 
-### `npm start`
+ `npm start`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
